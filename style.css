@@ -1,0 +1,159 @@
+body {
+    font-family: 'Gentium Book Plus', serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    color: black;
+}
+.text-grey{
+    color: #707070;
+}
+
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.block-fontainer {
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 150px;
+
+}
+
+.donate-width {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 30%;
+    padding: 10px;
+}
+
+.donate-orange {
+    border: 2px solid #FF5959;
+    width: 10%;
+    height: 8vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border-radius: 5px;
+}
+
+.donate {
+    width: 10%;
+    height: 8vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #FAFAFA;
+
+    border-radius: 5px;
+}
+
+.center {
+    display: block;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+
+.top-banner {
+    background: linear-gradient(rgba(255, 255, 255, 0), #000000f1), url(images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.middle-portion {
+    padding-top: 10%;
+    margin-left: 30%;
+    color: white;
+    text-align: center;
+
+}
+
+.link-button {
+
+    text-decoration: none;
+    color: azure;
+    font-weight: 700;
+    background-color: #FF5959;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+#three-container{
+    max-width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 30%;
+}
+.three-div{
+    height: 30vh;
+    width: 29.33%;
+    font-size: larger;
+    float: left;
+    text-align: left;
+    margin: 0 1.5%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.color-left{
+background-color: #d4f4f8;
+}
+.color-middle{
+    background-color: #FFEEEE;
+}
+.color-right{
+    background-color: #faf3cb;
+}
+
+.update-width{
+    margin-left: 30%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    max-width: 40%;
+    background-color: antiquewhite;
+}
+.footer-style{
+    max-width: 100%;
+    height: 20vh;
+    background-color: black;
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+    color: #FAFAFA;
+}
+.footer-style h3{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #FF5959;
+}
+.unique{
+    margin-top: 20%;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+    height: 70vh;
+    border-radius: 20px 60px;
+    border-left: 12px inset rgb(90, 236, 255);
+    box-shadow: 10px 10px 40px rgb(95, 95, 95);
+
+
+    
+}
